@@ -2,14 +2,12 @@
   border-left: 2px dashed;
   height: 80%;
   width: 0px;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
 }
 
 .divider.dark-theme{
-  border-color: rgba(251,249,255,1);
+  border-color: rgb(251,249,255);
 }
 
 .divider.light-theme{
-  border-color: black;
+  border-color: rgb(10,10,10);
 }

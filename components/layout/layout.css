@@ -15,6 +15,13 @@
   border-radius: 0.25em;
   display: flex;
 }
+.header .mini-menu:last-child{
+  margin-right: 0px;
+}
+
+.header .mini-menu:first-child{
+  margin-left: 0px;
+}
 
 .header .mini-menu p{
   margin: 0.5em;
@@ -25,11 +32,11 @@
 }
 
 .mini-menu.light-theme{
-  background-color: rgb(110,106,111);
-  color: rgb(42, 40, 42);
+  background-color: rgb(134,130,135);
+  color: rgb(10,10,10);
 }
 
 .mini-menu.dark-theme{
   background-color: rgb(42, 40, 42);
-  color: rgba(251,249,255,1);
+  color: rgb(251,249,255,);
 }

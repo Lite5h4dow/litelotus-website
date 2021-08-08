@@ -5,6 +5,8 @@
   flex-direction: row;
   align-items: center;
   border:2px solid transparent;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .button.centered{
@@ -12,19 +14,21 @@
 }
 
 .button.dark-theme{
-  background-color: rgba(7,24,31,1);
-  color:rgba(251,249,255,1);;
+  background-color: rgb(42,40,42);
+  color:rgb(251,249,255);
 }
 .button.dark-theme:hover{
   background-color: rgb(42, 40, 42);
+  border: 2px solid rgba(251,249,255,0.7);
 }
 
 .button.light-theme{
-  background-color: rgb(110,106,111);
+  background-color: rgb(134,130,135);
   color: rgb(10,10,10);
 }
 .button.light-theme:hover{
-  background-color: rgba(110,106,111,0.5);
+  background-color: rgb(134,130,135);
+  border:2px solid rgba(10,10,10, 0.7);
 }
 
 .button.transparent{
@@ -33,10 +37,8 @@
 
 .button.light-theme.transparent:hover{
   background-color: rgba(0, 0, 0, 0.3);
-  border:2px solid rgb(10,10,10);
 }
 
 .button.dark-theme.transparent:hover{
   background-color: rgba(255,255,255,0.3);
-  border: 2px solid rgba(251,249,255,1);;
 }

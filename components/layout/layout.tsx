@@ -10,12 +10,14 @@ const Layout = ({ children }: { children: JSX.Element | Array<JSX.Element> }): J
   return (<>
   <div className="header">
     <div className={`mini-menu ${darkModeStyle}`} >
-      <Button transparent>hello</Button>
+      <Button >hello</Button>
       <Divider/>
-      <Button icon={<Logo size={25}/>} transparent>Shadowlabs</Button>
+      <Button icon={<Logo size={25}/>} >Shadowlabs</Button>
     </div>
     <div className={`mini-menu transparent ${darkModeStyle}`}>
-      <Button onClick={()=>{toggleDarkMode()}} transparent> Hey there guys </Button>
+      <Button onClick={()=>{toggleDarkMode()}} > Hey there guys </Button>
+      <Button>Howdy Folks!</Button>
+      <Button>Really Goin Places!</Button>
     </div>
   </div>
   {children}
