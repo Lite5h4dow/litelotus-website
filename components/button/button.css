@@ -1,0 +1,42 @@
+.button{
+  padding: 0.5em;
+  border-radius: 0.25em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border:2px solid transparent;
+}
+
+.button.centered{
+  align-self: center;
+}
+
+.button.dark-theme{
+  background-color: rgba(7,24,31,1);
+  color:rgba(251,249,255,1);;
+}
+.button.dark-theme:hover{
+  background-color: rgb(42, 40, 42);
+}
+
+.button.light-theme{
+  background-color: rgb(110,106,111);
+  color: rgb(10,10,10);
+}
+.button.light-theme:hover{
+  background-color: rgba(110,106,111,0.5);
+}
+
+.button.transparent{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button.light-theme.transparent:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  border:2px solid rgb(10,10,10);
+}
+
+.button.dark-theme.transparent:hover{
+  background-color: rgba(255,255,255,0.3);
+  border: 2px solid rgba(251,249,255,1);;
+}
