@@ -2,6 +2,9 @@
   border-left: 2px dashed;
   height: 80%;
   width: 0px;
+  transition-property: all;
+  transition-duration: 400ms;
+  transition-timing-function: ease-in-out;
 }
 
 .divider.dark-theme{
