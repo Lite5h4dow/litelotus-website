@@ -4,6 +4,8 @@ import "./button.css"
 
 interface IButton {
   onClick?: () => void,
+  onFocus?: () => void,
+  onBlur?: () => void,
   transparent?: boolean,
   centered?: boolean,
   icon?: JSX.Element,

@@ -1,4 +1,4 @@
-import React, {useEffect, createRef, useState} from "react"
+import {useEffect, createRef, useState} from "react"
 
 const useSticky = () => {
   const [sticky, setSticky] = useState(false);
@@ -20,3 +20,5 @@ const useSticky = () => {
 
   return {elementRef, sticky}
 }
+
+export default useSticky
