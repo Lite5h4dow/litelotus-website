@@ -7,9 +7,7 @@
   border:2px solid transparent;
   margin-left: 0.5em;
   margin-right: 0.5em;
-  transition-property: all;
-  transition-duration: 400ms;
-  transition-timing-function: ease-in-out;
+  transition: all 400ms ease-in-out;
   max-height: 100%;
 }
 
@@ -29,7 +27,6 @@
   color:rgb(251,249,255);
 }
 .button.dark-theme:hover{
-  background-color: rgb(42, 40, 42);
   border: 2px solid rgba(251,249,255,0.7);
 }
 
@@ -38,7 +35,6 @@
   color: rgb(10,10,10);
 }
 .button.light-theme:hover{
-  background-color: rgb(134,130,135);
   border:2px solid rgba(10,10,10, 0.7);
 }
 
