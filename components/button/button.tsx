@@ -9,6 +9,7 @@ interface IButton {
   icon?: JSX.Element,
   className?: string,
   children?: string | JSX.Element | Array<JSX.Element>
+  href?:string
 }
 
 const Button = (props: IButton) => {
