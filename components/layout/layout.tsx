@@ -14,7 +14,7 @@ const Layout = ({ children }: { children: JSX.Element | Array<JSX.Element> }): J
       <Divider/>
       <Button icon={<Logo size={25}/>} >Shadowlabs</Button>
     </div>
-    <div className={`mini-menu transparent ${darkModeStyle}`}>
+    <div className={`mini-menu button-menu transparent ${darkModeStyle}`}>
       <Button onClick={()=>{toggleDarkMode()}} > Hey there guys </Button>
       <Button>Howdy Folks!</Button>
       <Button>Really Goin Places!</Button>
