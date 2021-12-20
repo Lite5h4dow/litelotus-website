@@ -45,7 +45,8 @@
 
 .mini-menu.button-menu{
   margin-left: 1em;
-  overflow-x: scroll;
+  overflow-x: auto;
+  overflow-y: none;
 }
 
 .mini-menu.button-menu.light-theme{
