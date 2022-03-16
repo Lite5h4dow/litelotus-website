@@ -65,5 +65,6 @@
 }
 
 .canvas{
+  flex:1;
   transition: all 400ms ease-in-out;
 }

@@ -1,13 +1,10 @@
 import React from "react";
 import useLayout from "./useLayout.tsx";
-import Button from "../button/button.tsx"
 import Logo from "~/components/logo.tsx";
-import Divider from "~/components/divider/divider.tsx"
-import Dropdown from "~/components/dropdown/dropdown.tsx"
-import Slider from "~/components/slider/slider.tsx"
+import {Dropdown, Button, Divider} from "components"
 import "./layout.css"
 
-const Layout = ({ children }: { children: JSX.Element | Array<JSX.Element> }): JSX.Element => {
+export const Layout = ({ children }: { children: JSX.Element | Array<JSX.Element> }): JSX.Element => {
   const {darkMode, toggleDarkMode, darkModeStyle, setDarkMode} = useLayout();
   const dropdownItems = [<Button>Shadowlabs</Button>, <Button>LiteLotus</Button>]
   return (
@@ -27,4 +24,3 @@ const Layout = ({ children }: { children: JSX.Element | Array<JSX.Element> }): J
   </div>
   );
 };
-export default Layout;

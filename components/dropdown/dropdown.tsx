@@ -1,9 +1,9 @@
 import React, {useState} from "react";
-import Button from "../button/button.tsx";
+import {Button} from "components";
 import useTheme from "~/lib/hooks/useTheme.tsx";
 import "./dropdown.css"
 
-const Dropdown = (props:any) => {
+export const Dropdown = (props:any) => {
   const {items} = props;
 
   const [show, setShow] = useState(false);
@@ -26,5 +26,3 @@ const Dropdown = (props:any) => {
     </div>
   );
 };
-
-export default Dropdown
