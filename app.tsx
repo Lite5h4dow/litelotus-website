@@ -17,19 +17,32 @@ export default function App({
           <link rel="icon" type="image/svg+xml" href="/logo.svg" />
           <title>Shadowlabs</title>
           <meta name="title" content="Shadowlabs" />
-          <meta name="description" content="Shadowlabs makes clean and responsive websites, apps, and mods."/>
+          <meta
+            name="description"
+            content="Shadowlabs makes clean and responsive websites, apps, and mods."
+          />
 
-          <meta property="og:type" content="website"/>
-          <meta property="og:url" content="https://shadowlabs.studio/"/>
-          <meta property="og:title" content="Shadowlabs"/>
-          <meta property="og:description" content="Shadowlabs makes clean and responsive websites, apps, and mods."/>
-          <meta property="og:image" content="https://shadowlabs.studio/logo.svg"/>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://shadowlabs.studio/" />
+          <meta property="og:title" content="Shadowlabs" />
+          <meta
+            property="og:description"
+            content="Shadowlabs makes clean and responsive websites, apps, and mods."
+          />
+          <meta
+            property="og:image"
+            content="https://shadowlabs.studio/logo.svg"
+          />
 
-          <meta property="twitter:card" content="summary_large_image"/>
-          <meta property="twitter:url" content="https://shadowlabs.studio/"/>
-          <meta property="twitter:title" content="Shadowlabs"/>
-          <meta property="twitter:description" content="Shadowlabs makes clean and responsive websites, apps, and mods."/>
-          <meta property="twitter:image" content="https://shadowlabs.studio/"></meta>
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta property="twitter:url" content="https://shadowlabs.studio/" />
+          <meta property="twitter:title" content="Shadowlabs" />
+          <meta
+            property="twitter:description"
+            content="Shadowlabs makes clean and responsive websites, apps, and mods."
+          />
+          <meta property="twitter:image" content="https://shadowlabs.studio/">
+          </meta>
         </head>
         <Page {...pageProps} />
       </AppContext.Provider>

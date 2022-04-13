@@ -1,11 +1,9 @@
-import React from 'react'
-import "./divider.css"
-import useTheme from "~/lib/hooks/useTheme.tsx"
+import React from "react";
+import "./divider.css";
+import useTheme from "~/lib/hooks/useTheme.tsx";
 
 export const Divider = () => {
-  const {theme} = useTheme()
+  const { theme } = useTheme();
 
-  return(
-    <div className={`divider ${theme}`}></div>
-  )
-}
+  return <div className={`divider ${theme}`}></div>;
+};

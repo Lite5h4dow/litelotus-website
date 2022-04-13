@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "~/components/logo.tsx";
-import {Layout, Segment} from "components";
+import { Layout, Segment } from "components";
 
 export default function Home() {
   return (
@@ -10,11 +10,10 @@ export default function Home() {
         <link rel="stylesheet" href="../style/index.css" />
       </head>
       <Layout>
-	<Segment>
-	  <p>
-	    
-	  </p>
-	</Segment>
+        <Segment>
+          <p>
+          </p>
+        </Segment>
       </Layout>
     </div>
   );

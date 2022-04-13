@@ -9,7 +9,7 @@
     "~/": "./",
     "framework": "https://deno.land/x/aleph@v0.3.0-beta.19/framework/core/mod.ts",
     "framework/react": "https://deno.land/x/aleph@v0.3.0-beta.19/framework/react/mod.ts",
-    "components":"./components/mod.ts"
+    "components": "./components/mod.ts"
   },
   "scopes": {}
 }

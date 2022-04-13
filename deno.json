@@ -1,0 +1,10 @@
+{
+  "importMap": "./import_map.json",
+  "fmt": {
+    "files": {
+      "exclude": [
+        "./.aleph/**/*"
+      ]
+    }
+  }
+}

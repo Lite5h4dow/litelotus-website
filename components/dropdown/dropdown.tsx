@@ -1,28 +1,32 @@
-import React, {useState} from "react";
-import {Button} from "components";
+import React, { useState } from "react";
+import { Button } from "components";
 import useTheme from "~/lib/hooks/useTheme.tsx";
-import "./dropdown.css"
+import "./dropdown.css";
 
-export const Dropdown = (props:any) => {
-  const {items} = props;
+export const Dropdown = (props: any) => {
+  const { items } = props;
 
   const [show, setShow] = useState(false);
-  const {theme} = useTheme();
+  const { theme } = useTheme();
 
-  return(
+  return (
     <div className="dropdown-container">
-      <Button {...props} 
-        onFocus={()=>{
+      <Button
+        {...props}
+        onFocus={() => {
           props.onFocus && props.onFocus();
           setShow(true);
-        }} 
-        onBlur={()=>{
+        }}
+        onBlur={() => {
           props.onBlur && props.onBlur();
           setShow(false);
-        }}/>
-      <div className={`dropdown ${show?"show":""} ${theme}`}>
-        {items.map((item:JSX.Element, index:number)=> <div key={index}>{item}</div>)}
-      </div>      
+        }}
+      />
+      <div className={`dropdown ${show ? "show" : ""} ${theme}`}>
+        {items.map((item: JSX.Element, index: number) => (
+          <div key={index}>{item}</div>
+        ))}
+      </div>
     </div>
   );
 };
